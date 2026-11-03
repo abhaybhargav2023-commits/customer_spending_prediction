@@ -190,3 +190,143 @@ The trained model is saved using Joblib and can be loaded later without retraini
 - Tested multiple customer records.
 - Learned model persistence and reusability.
 - Improved project documentation and validation.
+# AI-Based Customer Spending Prediction
+
+An end-to-end Machine Learning project that predicts customer spending categories using customer demographic and annual income information. The project includes data preprocessing, exploratory data analysis, machine learning model training, evaluation, and an interactive Streamlit web application.
+
+## 🚀 Live Application
+
+**Live Demo:** https://customerspendingprediction-unique.streamlit.app/
+
+## 📌 Project Overview
+
+The objective of this project is to classify customers into three spending categories:
+
+- Low Spending
+- Medium Spending
+- High Spending
+
+The prediction is based on customer features such as Gender, Age, and Annual Income.
+
+This solution can help businesses understand customer spending behaviour and support data-driven marketing and customer segmentation strategies.
+
+## 🎯 Project Objectives
+
+- Clean and prepare the customer dataset.
+- Perform Exploratory Data Analysis (EDA).
+- Create meaningful visualizations to identify customer patterns.
+- Apply feature engineering and preprocessing.
+- Train and evaluate at least two classification models.
+- Compare models using Accuracy, Precision, Recall, and F1-score.
+- Analyze the confusion matrix and feature importance.
+- Build an interactive customer spending prediction dashboard.
+- Enable individual and batch predictions.
+
+## 📂 Dataset
+
+**Dataset:** Mall Customer Segmentation Data
+
+**Source:** [Kaggle Dataset](https://www.kaggle.com/datasets/vjchoudhary7/customer-segmentation-tutorial-in-python)
+
+Features used:
+- Gender
+- Age
+- Annual Income (k$)
+
+Target variable:
+- Spending Category (Low, Medium, High)
+
+## 🛠️ Technologies & Tools
+
+- Python
+- Pandas & NumPy
+- Matplotlib & Seaborn
+- Scikit-learn
+- Streamlit
+- Joblib
+- Jupyter Notebook
+- Git & GitHub
+
+## ⚙️ Machine Learning Workflow
+
+1. Data Collection
+2. Data Cleaning and Preprocessing
+3. Exploratory Data Analysis
+4. Feature Engineering
+5. Train-Test Split
+6. Classification Model Training
+7. Model Evaluation and Comparison
+8. Model Saving and Loading
+9. Streamlit Application Development
+10. Cloud Deployment
+
+## 🤖 Machine Learning Models
+
+The project uses classification algorithms to predict customer spending categories.
+
+Model performance is evaluated using:
+
+- Accuracy
+- Precision
+- Recall
+- F1-score
+- Confusion Matrix
+
+## 💻 Application Features
+
+- Interactive Streamlit dashboard.
+- Individual customer spending prediction.
+- Batch prediction using CSV upload.
+- Prediction probability visualization.
+- Customer spending insights.
+- Downloadable prediction results.
+- Input validation and preprocessing.
+
+## 📁 Project Structure
+
+```text
+customer_spending_prediction/
+│
+├── app.py
+├── requirements.txt
+├── README.md
+├── .gitignore
+├── Dockerfile
+│
+├── data/
+│   ├── Mall_Customers.csv
+│   └── cleaned_customer_data.csv
+│
+├── notebooks/
+│   └── customer_spending_prediction.ipynb
+│
+├── models/
+│   └── best_customer_spending_model.joblib
+│
+├── reports/
+│   └── business_insights_report.md
+│
+├── visualizations/
+│
+└── .streamlit/
+    └── config.toml
+```
+
+*Note: The structure above describes the intended project organization. Keep only files and folders that actually exist in your repository.*
+
+## ▶️ Run Locally
+
+**1. Clone the repository**
+
+```bash
+git clone YOUR_GITHUB_REPOSITORY_URL
+cd customer_spending_prediction
+```
+
+**2. Create a virtual environment**
+
+```bash
+python -m venv .venv
+```
+
+**3. Activate
